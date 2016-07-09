@@ -6,6 +6,8 @@ using System.Web.Mvc;
 
 namespace Comp2007_S2016_Lab4.Controllers {
     public class HomeController : Controller {
+
+        //GET: /Home/Index or / with Default
         public ActionResult Index() {
             return View();
         }
